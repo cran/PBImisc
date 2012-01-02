@@ -34,6 +34,7 @@ website http://www.oferty.net/
 }
 \examples{
 data(apartments)
+library(lattice)
 xyplot(m2.price~construction.date|district, apartments, type=c("g","p"))
 
 # 
