@@ -9,7 +9,7 @@ Artificial dataset (subset from real dataset with some random modifications)
 \format{
 data.frame with 334 obs. and 16 variables
 \describe{
-   \item{\code{receiver.age}, \code{donor.age}}{Age od donor and receiver}
+   \item{\code{recipient.age}, \code{donor.age}}{Age od donor and recipient}
    \item{\code{CIT}}{Cold ischemia time}
    \item{\code{discrepancy.AB}, \code{discrepancy.DR}}{discrepancies in AB and DR antibodies}
    \item{\code{therapy}}{scheme of immunosuppression}
