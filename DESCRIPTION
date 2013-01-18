@@ -1,5 +1,5 @@
 Package: PBImisc
-Version: 0.995
+Version: 0.997
 Type: Package
 Title: A set of datasets used in my classes or in the book ,,Modele
         liniowe i mieszane w R, wraz z przykladami w analizie danych''
@@ -13,9 +13,9 @@ License: GPL-2
 LazyLoad: yes
 LazyData: yes
 URL: http://www.biecek.pl/R/
-Depends: R (>= 2.8.0), MASS
+Depends: R (>= 2.8.0), MASS, lme4, Matrix
 LinkingTo:
 Imports:
 Suggests: ggplot2, ca, lattice
-Packaged: 2012-01-02 15:28:32 UTC; pbiecek
-Date/Publication: 2012-01-02 17:57:55
+Packaged: 2013-01-18 01:37:57 UTC; pbiecek
+Date/Publication: 2013-01-18 06:40:56
