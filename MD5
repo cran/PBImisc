@@ -1,4 +1,4 @@
-b2a3d63f42fa1389265cbab23bb75a94 *DESCRIPTION
+9fe1bbfe6cad8e184081e2a363f783b1 *DESCRIPTION
 11b172e3ace026479fe93a4562c9006e *NAMESPACE
 405038ce45e82fbec7394612adbe7f69 *R/boxplot.in.time.r
 7da451c3cfd82a6927abc0d044e731e9 *R/boxplotpp.R
@@ -10,6 +10,8 @@ e0507201092c6443de8643ebd96740a1 *data/Drosophila.rda
 b9933cc8c59edd33fe274efdf275588e *data/SejmSenat.rda
 cdb7223fa37d9de7686596f22335e5ab *data/YXZ.rda
 7bf3b4d3afc8b2b4dfb3f80336769a95 *data/apartments.rda
+cece33237367f3c0709da71492b92562 *data/corn.rda
+0eada550b65c45db95d53eb869a401e3 *data/datalist
 5a3b36418966af64aaceef859e94d6cf *data/dementia.rda
 bec3405b1aa63f912ad4352d98e865e6 *data/ecap.rda
 a09f63bf61731298f310702bd81b6a40 *data/eden.rda
@@ -22,15 +24,17 @@ bf66c60b10e4540c55aedb55803e0f4b *data/genomes.rda
 0fdb0ee3a53f6d4848ae1d079388310d *data/kidney.rda
 291189d22020c6c324013ba5e0a8bb30 *data/milk.rda
 db7af5adb633ef12e5fd22b0d90c8183 *data/milkgene.rda
+492cf5c6866ba6cf15f5c0635821c344 *data/musculus.rda
 9002626a1dd896044f945c8d6c8e04a3 *data/schizophrenia.rda
 e79b9ffe31d922f33065a2050f40176c *data/vaccination.rda
 e19aea0d08284403d7498f11bf10376b *man/AML.Rd
 d02fae5ff0bbd6f654179255e0e43b9c *man/Drosophila.Rd
-933e19633feca9db9b4c29b147579f30 *man/PBImisc-package.Rd
+d7db551bdfa221c02a3b99f6399a5400 *man/PBImisc-package.Rd
 5814e106c10edd7fbf6ef4cf36c812c2 *man/SejmSenat.Rd
 f86c56b141b40bd2e488cd3d0c54800a *man/YXZ.Rd
 c5654a6ec89feba82eab539e04bd3940 *man/apartments.Rd
 42c55a007086373af25df66faeb034dd *man/boxplotpp.Rd
+91b94894b74d4acdf3b7a9adb536bcc4 *man/corn.Rd
 69b3eb7f8e2d87759b807a201bec26df *man/dementia.Rd
 de455f547506e7156e63685bc074b6c5 *man/ecap.Rd
 2a920db8ef9779281ef47f66efaf1a08 *man/eden.Rd
@@ -44,7 +48,10 @@ b60806b2e7ca6d4ea645c65c8c5168d5 *man/elastase.Rd
 b16907e3155ceb2e581b29a60ced960c *man/kidney.Rd
 a3f48a358dd28731a293faa7b4f0b201 *man/milk.Rd
 81799bb861d95c663192099ce0ac89b4 *man/milkgene.Rd
+d64bddcf4bedd034bf151104e5f6f6e4 *man/musculus.Rd
 3080f0de0bf9705a5da2a75eae6e351b *man/plot.post.hoc.Rd
 fd616cd1ec08670a4e9516a1eb1d9fcd *man/recalculateLogLik.Rd
 6ac16532173e0b26459f094a7d4294e6 *man/schizophrenia.Rd
 29ca7bb040302dcb5f4965cd4f0dd299 *man/vaccination.Rd
+42c55a007086373af25df66faeb034dd *other/boxplotpp.Rd
+1968d3c4e65d03b60b23531726b11648 *other/histpp.Rd
