@@ -26,7 +26,7 @@ Artificial dataset generated to be consistent with Maria M. study
 }
 \examples{
 data(kidney)
-PBImisc:::boxplot.in.time(kidney[,9:16], colnames(kidney[,9:16]), additional=TRUE)
+boxplotInTime(kidney[,9:16], colnames(kidney[,9:16]), additional=TRUE)
 }
 \keyword{kidney}
 

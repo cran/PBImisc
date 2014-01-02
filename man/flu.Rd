@@ -38,7 +38,9 @@ subflu = flu[flu$region=="Mazowieckie", ]
 qplot(date, inception.rate,data=subflu, geom="line")+scale_y_sqrt() +theme_bw()
 
 # polar coordinates
-qplot(1 + date.id*12/38, inception.rate,data=subflu, geom="path", xlab="month")+scale_y_sqrt()+geom_smooth(span=0.1,se=FALSE, size=2,col="red") + coord_polar() +theme_bw()
+qplot(1 + date.id*12/38, inception.rate,data=subflu, geom="path", xlab="month")+
+        scale_y_sqrt()+geom_smooth(span=0.1,se=FALSE, size=2,col="red") + 
+        coord_polar() +theme_bw()
 }
 \keyword{flu}
 

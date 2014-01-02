@@ -23,7 +23,8 @@ Artificial dataset generated to be consistent with Ula S. study
 \examples{
 data(endometriosis)
 library(lattice)
-xyplot(log(alpha.factor)~log(beta.factor)|disease*phase, data=endometriosis, type=c("p", "r"))
+xyplot(log(alpha.factor)~log(beta.factor)|disease*phase, 
+            data=endometriosis, type=c("p", "r"))
 summary(aov(alpha.factor~beta.factor*disease*phase, data=endometriosis))
 }
 \keyword{endometriosis}

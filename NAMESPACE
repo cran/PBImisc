@@ -1,5 +1,5 @@
 export(
- plotPairwiseTests, recalculateLogLik, groupDisp, obsDisp
+ plotPairwiseTests, recalculateLogLik, groupDisp, obsDisp, boxplotInTime
 )
 
 

@@ -9,7 +9,7 @@ Log-likelihood displacements for single observation and single grouping variable
 Functions for log-likelihood displacements for each observation or each level of given factor
 }
 \usage{
-recalculateLogLik(model, fixef = model@fixef, vcor = VarCorr(model)) 
+recalculateLogLik(model, fixef = fixef(model), vcor = VarCorr(model)) 
 
 groupDisp(formula, data, var) 
 
@@ -45,9 +45,9 @@ require(lme4)
 set.seed(1313)
 eunomias <- eunomia[sample(1:2000,100),]
 groupDisp(formula = BPRS.T2~ (1|CENTRE13), data=eunomias, var="CENTRE13")
-
+ 
 obsDisp(formula = BPRS.T2~ (1|CENTRE13), data=eunomias, inds = 1:10)
-
+ 
 obsDisp(formula = BPRS.T2~ (1|CENTRE13), data=eunomias)
-
+ 
 }
