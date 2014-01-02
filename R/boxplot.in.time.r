@@ -1,4 +1,4 @@
-boxplot.in.time <- function (x, xname, additional=T, color = ifelse(additional, "white","lightgrey"), main="", ylim=range(unlist(x),na.rm=T), ..., points = dim(x)[2], at = 1:points) {
+boxplotInTime <- function (x, xname, additional=T, color = ifelse(additional, "white","lightgrey"), main="", ylim=range(unlist(x),na.rm=T), ..., points = dim(x)[2], at = 1:points) {
     l.obiektow = dim(x)[1]
   col1 = rgb(161, 161, 161, 70, maxColorValue =255)
   col2 = rgb(111, 111, 111, 47, maxColorValue =255)

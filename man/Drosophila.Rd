@@ -39,7 +39,8 @@ for (i in 1:41) {
   pval1[i] = logLik(lm(y~x))
 }
 # loglikelihood plot
-xyplot(pval1~pos|chr, data=Drosophila, type=c("p","l"), pch=19, ylab="log likelihood")
+xyplot(pval1~pos|chr, data=Drosophila, type=c("p","l"), 
+     pch=19, ylab="log likelihood")
 }
 \keyword{Drosophila}
 

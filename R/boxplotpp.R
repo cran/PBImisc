@@ -1,5 +1,5 @@
 `boxplotpp` <-
-function(x, xname=seq(1:ncol(x)), utitle="", addLines=T, color = ifelse(addLines, "white","lightgrey"), ...) {
+function(x, xname=seq(1:ncol(x)), utitle="", addLines=TRUE, color = ifelse(addLines, "white","lightgrey"), ...) {
   l.punktow = ncol(x)
   l.obiektow = nrow(x)
 	plot(c(0.5,l.punktow+0.5),range(x),type="n",xlab="",ylab="",xaxt="n", main=utitle, ...)

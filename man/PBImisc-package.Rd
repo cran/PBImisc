@@ -3,7 +3,7 @@
 \alias{PBImisc}
 \docType{package}
 \title{
-PBI misc package
+PBI misc
 }
 \description{
 A set of datasets used in my classes or in the book ,,Modele liniowe i mieszane w R, wraz z przykladami w analizie danych''
@@ -12,8 +12,8 @@ A set of datasets used in my classes or in the book ,,Modele liniowe i mieszane 
 \tabular{ll}{
 Package: \tab PBImisc\cr
 Type: \tab Package\cr
-Version: \tab 0.998\cr
-Date: \tab 2013-02-21\cr
+Version: \tab 0.999\cr
+Date: \tab 2013-07-25\cr
 License: \tab GPL-2\cr
 }
 }
