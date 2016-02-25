@@ -1,5 +1,9 @@
 export(
- plotPairwiseTests, recalculateLogLik, groupDisp, obsDisp, boxplotInTime
+ plotPairwiseTests, recalculateLogLik, groupDisp, obsDisp, boxplotInTime, calculateScoreEur
 )
-
-
+import(lme4)
+import(Matrix)
+importFrom("grDevices", "rgb")
+importFrom("graphics", "Axis", "abline", "axis", "boxplot", "hist",
+"lines", "par", "plot", "points", "rug", "segments")
+importFrom("stats", "logLik", "na.omit")
